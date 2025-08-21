@@ -47,6 +47,7 @@
   width: 20%;
   background-color: black;
   border: none;
+  cursor: pointer;
 }
 
 .register__signin {
