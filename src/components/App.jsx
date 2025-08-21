@@ -21,7 +21,7 @@ function App() {
     if (password === confirmPassword) {
       auth.register(username, password, email)
        .then(() => {
-          // TODO: handle succesful registration
+          navigate("/login");
         })
         .catch(console.error);
     }
